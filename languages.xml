@@ -1,0 +1,39 @@
+﻿<CATALOG>
+<CD>
+<LANGUAGE>JavaScript</LANGUAGE>
+<DESCRIBE>JavaScript is an interpreted programming language, dialect of the ECMAScript standard. It is defined as object-oriented, prototype-based, imperative, weakly typed, and dynamic.</DESCRIBE>
+
+</CD>
+<CD>
+<LANGUAGE>PHP</LANGUAGE>
+<DESCRIBE>PHP, the English recursive acronym for PHP: Hypertext Preprocessor, is a general-purpose programming language for server-side code originally designed for plain text preprocessing in UTF-8</DESCRIBE>
+
+</CD>
+<CD>
+<LANGUAGE>Java</LANGUAGE>
+<DESCRIBE>Java is a programming language and computing platform first commercialized in 1995 by Sun Microsystems. There are many applications and websites that will not work unless you have Java installed and more are being created every day. Java is fast, secure and reliable.</DESCRIBE>
+
+</CD>
+<CD>
+<LANGUAGE>Python</LANGUAGE>
+<DESCRIBE>Python is an interpreted programming language whose philosophy emphasizes the readability of its code.It is a multi-paradigm programming language, since it supports object orientation, imperative programming and, to a lesser extent, functional programming.</DESCRIBE>
+
+</CD>
+<CD>
+<LANGUAGE>C#</LANGUAGE>
+<DESCRIBE>C # is a multi-paradigm programming language developed and standardized by Microsoft as part of its .NET platform, which was later approved as a standard by ECMA and ISO. C # is one of the programming languages ​​designed for the common language infrastructure.</DESCRIBE>
+
+</CD>
+<CD>
+<LANGUAGE>C</LANGUAGE>
+<DESCRIBE>C is a general-purpose programming language originally developed by Dennis Ritchie between 1969 and 1972 at Bell Laboratories, as an evolution of the earlier B language, which is itself BCPL-based. Like B, it is a language oriented to the implementation of operating systems, specifically Unix.</DESCRIBE>
+
+</CD>
+
+<CD>
+<LANGUAGE>C++</LANGUAGE>
+<DESCRIBE>C ++ is a programming language designed in 1979 by Bjarne Stroustrup. The intention of its creation was to extend to the programming language C mechanisms that allow the manipulation of objects. In that sense, from the point of view of object-oriented languages, C ++ is a hybrid language.</DESCRIBE>
+
+</CD>
+
+</CATALOG>

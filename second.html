@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Second task</title>
+<meta charset = "utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+
+table {
+margin: 5px;
+padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>Most popular programming language!</h1>
+
+<button type="button" class="btn btn-primary" onclick="loadLanguages()">Look them</button>
+<br><br>
+<table id="demo"></table>
+
+<script>
+function loadLanguages() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      renderLangTable(this);
+    }
+  };
+  xhttp.open("GET", "languages.xml", true);
+  xhttp.send();
+}
+function renderLangTable(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Language</th><th>Describe</th></tr>";
+  var x = xmlDoc.getElementsByTagName("CD");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("LANGUAGE")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("DESCRIBE")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+	
+	 
+	
+	
+	
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
+</body>
+</html>
